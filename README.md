@@ -29,7 +29,7 @@ python -m pip install -e .
 After installation the `auto-scholar` command becomes available:
 
 ```bash
-auto-scholar --id t9ko5DMAAAAJ --name "Kazi Amit Hasan" --output publications.html
+auto-scholar --id 123456789 --name "Kazi Amit Hasan" --output publications.html
 ```
 
 **Key options**
