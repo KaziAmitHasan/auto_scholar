@@ -1,4 +1,4 @@
-# Auto-Scholar HTML Generator
+# Auto-Scholar
 
 Auto-Scholar queries a Google Scholar profile and produces a single static HTML page of your publications. Entries are separated into journal and conference sections, your name is bolded in every author list, and each publication comes with a copyable BibTeX snippet.
 
@@ -16,7 +16,7 @@ Auto-Scholar queries a Google Scholar profile and produces a single static HTML 
 pip install auto-scholar
 ```
 
-### From source
+### From source (currently supporting)
 ```bash
 git clone https://github.com/YOUR_USERNAME/auto_scholar.git
 cd auto_scholar
@@ -29,12 +29,12 @@ python -m pip install -e .
 After installation the `auto-scholar` command becomes available:
 
 ```bash
-auto-scholar --id wX4le_QAAAAJ --name "Yuan Tian" --output publications.html
+auto-scholar --id t9ko5DMAAAAJ --name "Kazi Amit Hasan" --output publications.html
 ```
 
 **Key options**
-- `--id` *(required)* – Google Scholar ID (the last part of the profile URL).
-- `--name` *(required)* – Full name that should be bolded in author lists.
+- `--id` *(required)* – Google Scholar ID (the last part of the profile URL). For example, in `https://scholar.google.com/citations?user=123456789&hl=en` the ID is `123456789`.
+- `--name` *(required)* – Full name that should be bolded in author lists. For example 'Firstname lastname'
 - `--output` – Output HTML file (defaults to `publications.html`).
 - `--template` – Optional path to a custom HTML template containing `{content}`.
 - `--proxy` – Enable a free proxy pool if Google starts throttling requests.
@@ -47,7 +47,7 @@ Useful commands:
 
 ```bash
 # Run the CLI from source
-python -m auto_scholar.cli --id YOUR_ID --name "Your Name"
+python -m auto_scholar.cli --id t9ko5DMAAAAJ --name "Kazi Amit Hasan"
 
 # Build source and wheel distributions
 python -m build
