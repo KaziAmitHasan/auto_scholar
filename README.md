@@ -43,17 +43,3 @@ auto-scholar --id 123456789 --name "Kazi Amit Hasan" --output publications.html
 
 Clone the repository, create a virtual environment, and install dependencies with `pip install -e .[dev]` (or simply `pip install -e .` if you only need runtime requirements).
 
-Useful commands:
-
-```bash
-# Run the CLI from source
-python -m auto_scholar.cli --id t9ko5DMAAAAJ --name "Kazi Amit Hasan"
-
-# Build source and wheel distributions
-python -m build
-
-# Upload to TestPyPI
-python -m twine upload --repository testpypi dist/*
-```
-
-Publishing to PyPI is as simple as uploading the contents of `dist/` with Twine after incrementing the version number in `pyproject.toml` and `src/auto_scholar/__init__.py`.
