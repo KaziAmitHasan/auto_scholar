@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Generated HTML
+*.html
+
+# Virtual environments
+.venv/
+venv/
+env/
+auto_scholar/
+
+# Build artifacts
+build/
+dist/
+.pytest_cache/
+*.egg-info/
