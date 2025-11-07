@@ -3,7 +3,7 @@
 Auto-Scholar queries a Google Scholar profile and produces a single static HTML page of your publications. Entries are separated into journal and conference sections, your name is bolded in every author list, and each publication comes with a copyable BibTeX snippet.
 
 ## Features
-- Fetch publications for any Google Scholar ID using `scholarly`.
+- Fetch publications for any Google Scholar ID using `scholarly`..
 - Highlight your name inside the author list.
 - Generate “Copy BibTeX” buttons for quick citation grab.
 - Group publications into journal and conference sections, sorted by year.
