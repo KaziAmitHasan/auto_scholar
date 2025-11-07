@@ -18,7 +18,7 @@ pip install auto-scholar
 
 ### From source (currently supporting)
 ```bash
-git clone https://github.com/YOUR_USERNAME/auto_scholar.git
+git clone https://github.com/KaziAmitHasan/auto_scholar.git
 cd auto_scholar
 python -m pip install --upgrade pip
 python -m pip install -e .
@@ -38,8 +38,4 @@ auto-scholar --id 123456789 --name "Kazi Amit Hasan" --output publications.html
 - `--output` – Output HTML file (defaults to `publications.html`).
 - `--template` – Optional path to a custom HTML template containing `{content}`.
 - `--proxy` – Enable a free proxy pool if Google starts throttling requests.
-
-## Development
-
-Clone the repository, create a virtual environment, and install dependencies with `pip install -e .[dev]` (or simply `pip install -e .` if you only need runtime requirements).
 
