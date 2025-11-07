@@ -11,7 +11,7 @@ __pycache__/
 .venv/
 venv/
 env/
-auto_scholar/
+/auto_scholar/
 
 # Build artifacts
 build/
