@@ -1,0 +1,26 @@
+{
+  "awards": [
+    {
+      "title": "Understanding Abandonment and Slowdown Dynamics in the Maven Ecosystem.",
+      "badges": [
+        {
+          "label": "Best Presentation Award",
+          "icon": "fa-trophy"
+        },
+        {
+          "label": "Best Paper Nomination",
+          "icon": "fa-star"
+        }
+      ]
+    },
+    {
+      "title": "An empirical study on developers’ shared conversations with ChatGPT in GitHub pull requests and issues.",
+      "badges": [
+        {
+          "label": "Co-First Author",
+          "icon": "fa-user-friends"
+        }
+      ]
+    }
+  ]
+}

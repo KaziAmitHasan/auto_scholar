@@ -35,6 +35,10 @@ def build_parser() -> argparse.ArgumentParser:
         help="Path to a custom HTML template file containing '{content}'.",
     )
     parser.add_argument(
+        "--awards-config",
+        help="Optional path to awards.json for badge metadata (defaults to ./awards.json if present).",
+    )
+    parser.add_argument(
         "--proxy",
         action="store_true",
         help="Use a free proxy pool to reduce the chance of Google blocking the requests.",
@@ -53,6 +57,7 @@ def main(argv: Sequence[str] | None = None) -> None:
         output_path=args.output,
         template_path=args.template,
         use_proxy=args.proxy,
+        awards_config_path=args.awards_config,
     )
 
 
