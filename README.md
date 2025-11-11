@@ -33,6 +33,12 @@ auto-scholar \
 
 The command writes `research.html` in the current directory. Place the output next to your existing static assets (`navbar.html`, `footer.html`, `css/main.css`, etc.) and you’re done.
 
+### Finding your Google Scholar ID
+
+1. Open your Google Scholar profile in a browser.  
+2. Look at the URL— it should look like `https://scholar.google.com/citations?user=t9ko5DMAAAAJ&hl=en`.  
+3. Copy the value after `user=` (here `t9ko5DMAAAAJ`) and use it as the `--id` argument. The rest of the URL parameters don’t matter.
+
 ### Key CLI options
 
 | Flag | Description |
